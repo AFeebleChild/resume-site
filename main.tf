@@ -1,6 +1,5 @@
 provider "aws" {
   region  = "us-west-2"
-  profile = "personal"
 }
 
 terraform {
@@ -8,7 +7,6 @@ terraform {
     bucket  = "afeeblechild-state"
     key     = "resume-site"
     region  = "us-west-2"
-    profile = "personal"
   }
   required_version = ">= 1.3.3"
 }
