@@ -1,0 +1,85 @@
+* {
+    font-family: "Source Code Pro", "Times New Roman", sans-serif;
+    text-align: left;
+    margin: auto;
+    border: 0;
+    padding: 0;
+    background: #36454F;
+    color: #F9FAF8;
+}
+
+.introduction {
+    width: 1000px;
+    font-size: 20px;
+}
+
+.name {
+    font-size: 40px;
+}
+
+.cover-statement {
+    box-shadow: 0 0 2em #6082B6;
+    padding: 1.5em;
+    border-radius: 1.5em;
+}
+
+.skill, .experience, .hobby {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    border-radius: 0 1.5em;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.skills-section, .experience-section, .hobbies-section {
+    margin-top: 100px;
+    width: 1000px;
+}
+
+.skill {
+    background: #708090;
+}
+
+.experience {
+    background: #71797E;
+}
+
+.hobby {
+    background: #8A9A5B;
+}
+
+.hobby h2 {
+    color: #36454F;
+}
+
+.hobby p {
+    color: #36454F;
+}
+
+h2 {
+    flex: 1;
+    background: transparent;
+    min-width: 300px;
+    padding: 5px;
+    font-size: 26px;
+}
+
+ul {
+    flex: 1;
+    background: transparent;
+    min-width: 20%;
+    font-size: 22px;
+}
+
+li {
+    flex: 1;
+    background: transparent;
+    font-size: 22px;
+}
+
+p {
+    flex: 1;
+    background: transparent;
+    font-size: 22px;
+}
