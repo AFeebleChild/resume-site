@@ -35,7 +35,7 @@ jobs:
         shell: bash
 
       - name: Terraform Apply
-        run: terraform apply -input=false
+        run: terraform apply -input=false -auto-approve
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET_KEY }}
